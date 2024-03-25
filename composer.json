@@ -1,0 +1,15 @@
+{
+    
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ],
+        "psr-4": {
+            "Controller\\": "Controller/"
+        }
+    },
+    "require": {
+        "pecee/simple-router": "^5.4",
+        "firebase/php-jwt": "^6.10"
+    }
+}
